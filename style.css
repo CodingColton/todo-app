@@ -32,5 +32,7 @@
       -webkit-animation-delay: 0.3s;
       animation-delay: 0.3s; }
 
-
 /* Page Styling */
+p {
+    margin: 0px;
+}

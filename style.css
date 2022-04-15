@@ -33,10 +33,15 @@
       animation-delay: 0.3s; }
 
 /* Page Styling */
+body {
+  background-color: #284B63;
+}
+
 #task_item {
   margin: 3px;
   font-size: 16px;
-  background-color: red;
+  color: white;
+  background-color: #153243;
   width: 50%;
   -moz-border-radius: 15px; //for mozilla support
   -webkit-border-radius: 15px; //for chrome support

@@ -6,7 +6,7 @@ task_input.setAttribute('size',task_input.getAttribute('placeholder').length);
 add_button.onclick = function() {
     const para = document.createElement("p");
     para.setAttribute('id', 'task_item');
-    para.innerText = "- " + task_input.value;
+    para.innerText = task_input.value;
     document.body.appendChild(para);
     task_input.value = "";
     task_input.focus();

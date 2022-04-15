@@ -12,7 +12,7 @@ add_button.onclick = function() {
 };
 
 task_input.addEventListener("keyup", function(event) {
-    if (event.keyCode === 13) {
+    if (event.key === "Enter") {
         //click add task button
         add_button.click();
     }

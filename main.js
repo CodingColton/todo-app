@@ -7,7 +7,7 @@ add_button.onclick = function() {
     const para = document.createElement("p");
     para.setAttribute('id', 'task_item');
     para.innerText = task_input.value;
-    document.body.appendChild(para);
+    document.getElementById('wrapper').appendChild(para);
     task_input.value = "";
     task_input.focus();
 };

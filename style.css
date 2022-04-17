@@ -53,3 +53,7 @@ body {
   border-radius: 15px;
 }
 
+#task_item:hover {
+  background-color: #112a38;
+}
+
